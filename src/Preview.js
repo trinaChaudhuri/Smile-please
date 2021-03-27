@@ -23,7 +23,7 @@ export default class Preview extends React.Component {
             <TouchableOpacity
               onPress={() => this.setState({showPreview: true})}
               style={styles.previewbuttoncontainer}>
-              <Text style={styles.previewText}>Preview</Text>
+              <Text style={styles.previewText}>Check the uploaded video</Text>
             </TouchableOpacity>
           </>
         ) : (
